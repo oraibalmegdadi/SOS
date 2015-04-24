@@ -43,7 +43,7 @@ import org.hibernate.spatial.dialect.oracle.OracleSpatial10gDialect;
 import org.hibernate.spatial.dialect.postgis.PostgisDialect;
 import org.hibernate.spatial.dialect.sqlserver.SqlServer2008SpatialDialect;
 //import org.hibernate.spatial.dialect.scidb.ScidbDialect;
-//import org.hibernate.spatial.dialect.postgis.ScidbDialect;
+import org.hibernate.spatial.dialect.postgis.ScidbDialect;
 
 import com.google.common.collect.Lists;
 
@@ -84,8 +84,8 @@ public class SQLScriptGenerator {
             return new MySQLSpatial5InnoDBDialect();
         case 5:
             return new SqlServer2008SpatialDialect();
-      /*  case 6:
-            return new ScidbDialect();*/
+        case 6:
+            return new ScidbDialect();
         default:
             throw new Exception("The entered value is invalid!");
         }
@@ -170,7 +170,7 @@ public class SQLScriptGenerator {
         printToScreen("3   H2/GeoDB");
         printToScreen("4   MySQL");
         printToScreen("5   SQL Server");
-	//printToScreen("6   SciDB");
+	printToScreen("6   SciDB");
         printToScreen("");
         printToScreen("Enter your selection: ");
 

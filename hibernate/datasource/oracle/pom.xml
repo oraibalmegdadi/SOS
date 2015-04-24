@@ -24,11 +24,11 @@
             <groupId>${project.groupId}</groupId>
             <artifactId>hibernate-datasource-common</artifactId>
         </dependency>
-		<dependency>
+		<!-- <dependency>
 			<groupId>com.oracle</groupId>
 			<artifactId>ojdbc6</artifactId>
 			<scope>provided</scope>
-		</dependency>
+		</dependency>  -->
 		<!-- Hibernate Core Dependencies -->
 		<dependency>
 			<groupId>org.hibernate</groupId>

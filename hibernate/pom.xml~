@@ -16,7 +16,7 @@
         <module>common</module>
         <module>dao</module>
         <module>feature</module>
-	<module>h2</module>
-	<module>datasource</module>
+		<module>h2</module>
+		<module>datasource</module>
   </modules>
 </project>

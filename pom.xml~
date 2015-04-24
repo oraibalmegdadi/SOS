@@ -26,7 +26,6 @@
     </ciManagement>
     <modules>
         <module>core</module>
-	<module>scidb</module>
         <module>bindings</module>
         <module>coding</module>
         <module>converter</module>
